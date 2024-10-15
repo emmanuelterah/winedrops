@@ -1,0 +1,47 @@
+.app-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .sorting-options,
+  .wine-search {
+    margin-bottom: 20px;
+  }
+  
+  .wine-list {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .wine-list th,
+  .wine-list td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .top-10 {
+    background-color: lightgreen; /* Highlight for top 10% */
+  }
+  
+  .bottom-10 {
+    background-color: lightcoral; /* Highlight for bottom 10% */
+  }
+  
+  .wine-search input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .sorting-options select {
+    padding: 8px;
+  }
+  
